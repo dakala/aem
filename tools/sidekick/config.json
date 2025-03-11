@@ -1,0 +1,13 @@
+{
+  "project": "Capgemini AEM Edge Delivery Services Demo",
+  "plugins": [
+    {
+      "id": "library",
+      "title": "Library",
+      "environments": ["edit"],
+      "url": "/tools/sidekick/library.html",
+      "excludePaths": ["**"],
+      "includePaths": ["**.docx**", "/document/**", "**.gdoc**", "/tools/sidekick/blocks/**"]
+    }
+  ]
+}
